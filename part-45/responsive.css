@@ -1,0 +1,74 @@
+
+
+@media screen and (max-width: 980px)
+{
+    .logo-area
+    {
+        width: 80%;
+        float: none;
+        text-align: center;
+    }
+    .login-area
+    {
+        width: 450px;
+        float: none;
+        margin: 15px auto;
+
+    }
+    .login-area form
+    {
+        float: none;
+    }
+    .left-area
+    {
+        width: 100%;
+        float: none;
+    }
+    .right-area
+    {
+        width: 100%;
+        float: none;
+    }
+    .left-area p
+    {
+        width: 100%;
+    }
+    .brith-date
+    {
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (mak-width: 768px)
+{
+    .logo-area
+    {
+        width: 50%;
+        float: none;
+        text-align: center;
+    }
+    .login-area
+    {
+        width: 110%;
+    }
+    .login-area .email,
+    .login-area .password,
+    .login-area .login 
+    {
+        float: none;
+        margin-right: 0;
+    }
+    .login-area input[type="submit"]
+    {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .container
+    {
+        width: 80%;
+    }
+}
